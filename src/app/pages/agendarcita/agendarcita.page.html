@@ -1,0 +1,104 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!-- <ion-title>FODA</ion-title> -->
+
+      <ion-buttons slot="start" color="dark">
+      <ion-back-button color="dark"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content class="bg-color">
+
+    <ion-card class="ion-no-margin">
+
+        <ion-card-header>
+            <ion-card-title>
+             Agendar Cita
+            </ion-card-title>
+            <ion-card-subtitle>
+              Rellena el formulario
+              </ion-card-subtitle>
+        </ion-card-header>
+
+       <ion-card-content>
+
+                                <!--FORMULARIO-->
+           <ion-item>
+               <ion-input name="nombre" type="text" placeholder="Nombre">
+                 <ion-icon name="person-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+           <ion-item>
+            <ion-input name="apellido" type="text" placeholder="Apellido">
+              <ion-icon name="person-outline" ></ion-icon>
+            </ion-input>
+        </ion-item>
+           
+           <ion-item>
+            <ion-input name="rut" type="text" placeholder="Rut">
+              <ion-icon name="card-outline"></ion-icon>
+            </ion-input>
+        </ion-item>
+
+         <ion-item>
+               <ion-input name="telefono" type="text" placeholder="Telefono No.">
+                 <ion-icon name="call-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+
+           <ion-item>
+               <ion-input name="email" type="text" placeholder="Correo">
+                 <ion-icon name="mail-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+        
+          
+
+      
+      <!--COMUNA - FORMULARIO-->
+      <ion-item>
+         <ion-label><ion-icon name="location-outline"></ion-icon> Comuna</ion-label>
+        <ion-select required="true">
+          <ion-select-option value="Quillota ">Quillota </ion-select-option>
+          <ion-select-option value="La Calera">La Calera</ion-select-option>
+          <ion-select-option value="Hijuelas">Hijuelas</ion-select-option>
+          <ion-select-option value="Nogales">Nogales</ion-select-option>
+          <ion-select-option value="La Cruz">La Cruz</ion-select-option>
+        </ion-select>
+</ion-item>
+
+
+                   
+
+        <div class="separ">
+                    <label> Descripción:</label>
+                   <ion-item>
+                     
+                   <ion-textarea class= "solid" name="detalles" placeholder="Detalles"> 
+                    
+                    </ion-textarea>
+
+                   </ion-item>
+         </div>
+
+        
+          
+
+            
+       </ion-card-content>
+
+    </ion-card>
+
+		
+
+  <div align="center">
+
+    <ion-button style="display: flex; margin-bottom: 60px;max-width: 250px;"
+     shap="round" color="primary" type="submit">Enviar</ion-button>
+
+  </div>
+  
+  
+</ion-content>

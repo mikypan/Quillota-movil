@@ -1,0 +1,107 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <!-- <ion-title>EDITAR PERFIL</ion-title> -->
+     <ion-buttons slot="start" color="dark">
+      <ion-back-button color="dark"></ion-back-button>
+    
+      </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content class="bg-color">
+
+    <ion-card class="ion-no-margin">
+
+        <ion-card-header>
+            <ion-card-title>
+             Edit. Perfil
+            </ion-card-title>
+            <ion-card-subtitle>
+              Edita tu cuenta rellenando el formulario
+              </ion-card-subtitle>
+        </ion-card-header>
+
+       <ion-card-content>
+
+                                <!--FORMULARIO-->
+           <ion-item>
+               <ion-input name="nombre" type="text" placeholder="Nombre">
+                 <ion-icon name="person-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+           <ion-item>
+            <ion-input name="apellido" type="text" placeholder="Apellido">
+              <ion-icon name="person-outline" ></ion-icon>
+            </ion-input>
+        </ion-item>
+           <ion-item>
+               <ion-input name="telefono" type="text" placeholder="Telefono No.">
+                 <ion-icon name="call-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+           <ion-item>
+               <ion-input name="email" type="text" placeholder="Correo">
+                 <ion-icon name="mail-outline" ></ion-icon>
+               </ion-input>
+           </ion-item>
+           <ion-item>
+            <ion-input name="rut" type="text" placeholder="Rut">
+              <ion-icon name="card-outline"></ion-icon>
+            </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input name="password" type="password" placeholder="Nueva Contraseña">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+          </ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input name="password" type="password" placeholder="Repetir Contraseña">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-input>
+    </ion-item>
+
+      <!--GENERO - FORMULARIO-->
+      <ion-radio-group value="hombre">
+        <ion-list-header>
+          <ion-label>Sexo</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>Hombre</ion-label>
+          <ion-radio slot="start" value="hombre"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Mujer</ion-label>
+          <ion-radio slot="start" value="mujer"></ion-radio>
+        </ion-item>
+  
+         <ion-item>
+          <ion-label>Otro</ion-label>
+          <ion-radio slot="start" value="otro"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+      <!--COMUNA - FORMULARIO-->
+      <ion-item>
+         <ion-label><ion-icon name="location-outline"></ion-icon> Comuna</ion-label>
+        <ion-select required="true">
+          <ion-select-option value="Quillota ">Quillota </ion-select-option>
+          <ion-select-option value="La Calera">La Calera</ion-select-option>
+          <ion-select-option value="Hijuelas">Hijuelas</ion-select-option>
+          <ion-select-option value="Nogales">Nogales</ion-select-option>
+          <ion-select-option value="La Cruz">La Cruz</ion-select-option>
+        </ion-select>
+</ion-item>
+
+
+           <div class="sign-btn-wrap pad">
+              <ion-button  shape="round"  fill="solid" class="sign-btn">Guardar</ion-button>
+             </div>
+
+            
+       </ion-card-content>
+
+    </ion-card>
+
+</ion-content>

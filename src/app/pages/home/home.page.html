@@ -1,0 +1,208 @@
+<!--  ENCABEZADO -->
+
+          <ion-header class="ion-no-margin" class="ion-no-border translucent" >
+           <ion-toolbar>
+            <ion-item lines="none" color="primary" class="ion-no-border">
+
+                
+              <ion-avatar slot="end">
+                <img src="assets/img/banner-2.jpg" class="altu">
+              </ion-avatar>
+
+
+              <!--  MENU -->
+
+             <ion-buttons slot="start"> 
+               <ion-menu-button menu="main-menu">
+
+               </ion-menu-button>
+
+             </ion-buttons>
+          </ion-item>
+        </ion-toolbar>
+
+          </ion-header>
+
+
+
+<ion-content [fullscreen]="true" padding fullscreen>
+
+          <!--IMAGEN PRINCIPAL CON BUSCADOR-->
+
+
+  <div class="searchwrap">
+    <div class="container">
+      <h3>QUILLOTA</h3>
+      <div class="searchbar">
+
+        <div class="cont">
+
+          <ion-input type="text" class="ty" placeholder="Enter"></ion-input>
+        
+        
+        
+          <ion-item class="ty">
+         <ion-label> Select Categoria</ion-label>
+         <ion-select required="true">
+          <ion-select-option value="Quillota ">Marketing </ion-select-option>
+          <ion-select-option value="La Calera">Restauran</ion-select-option>
+          <ion-select-option value="Hijuelas">Gestor</ion-select-option>
+          <ion-select-option value="Nogales">Administrador</ion-select-option>
+        </ion-select>
+        </ion-item>
+
+        <ion-button expand="full" class="bt" routerLink="/trabajos"> BUSCAR TRABAJO</ion-button>
+
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+
+  
+                  <!--Menu slide-->
+
+  <div aling="center">
+
+    
+    <!-- <p  class="ion-text-center">Aquí puedes ver</p> -->
+    <h1 class="ion-text-center">¿Cómo funciona?</h1>
+
+    
+
+    <ion-grid  class="ion-no-padding">
+    <ion-row >
+      <ion-col size="12">
+           
+            <ion-card class="category2" color="primary">
+              <ion-card-header class="ion-text-center">
+                <ion-icon name="briefcase-outline"></ion-icon>
+                <ion-card-title>Buscar un trabajo</ion-card-title>
+                <ion-card-subtitle class="subt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sint itaque </ion-card-subtitle>
+              </ion-card-header>
+            </ion-card>
+
+
+            <ion-card class="category2" color="danger">
+              <ion-card-header class="ion-text-center">
+                <ion-icon name="reader-outline"></ion-icon>
+                <ion-card-title>Envie su CV</ion-card-title>
+                <ion-card-subtitle class="subt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sint itaque </ion-card-subtitle>
+              </ion-card-header>
+            </ion-card>
+  
+    
+
+            
+              <ion-card class="category2 category3" color="success">
+                <ion-card-header class="ion-text-center">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <ion-card-title>Agendar cita</ion-card-title>
+                  <ion-card-subtitle class="subt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sint itaque </ion-card-subtitle>
+                </ion-card-header>
+              </ion-card>
+            
+        
+        
+          
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</div>
+
+
+                    <!--VIDEOTECA-HOME-->
+
+
+<div  class="videowraper section">
+
+  <div class="container1"> 
+    
+    <div class="titleTop">
+      <h3>MIRA NUESTRO <span>VIDEO</span></h3>
+      <div class="subtitle">Videoteca</div>
+    </div>
+  
+    
+    <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper orci.</p>
+    <ion-icon class="ico" name="caret-forward-circle-outline"></ion-icon> </div>
+  </div>
+
+
+
+            <!-- ULTIMOS TRABAJOS-HOME-->
+              <div class="container2 divk">
+                <h2>Últimos trabajo</h2>
+
+            
+            <div class="container2 divk just" *ngFor="let c of [1,1,1,1,1,1];">
+
+              
+          
+              <ion-item lines="none">
+                <ion-grid>
+                  <ion-row >
+          
+                    <ion-col size="12">
+
+                      <div>
+
+                        <h4>Operativo de Servicios Post Venta</h4>
+                        <h6>Marketing</h6>
+
+                        <label class="post-requi">
+
+                          <ion-icon name="location-outline"></ion-icon>
+            
+                        Ubicación:</label>
+
+                        
+                        <h6>Viña del Mar</h6>
+
+                        <label class="post-requi">
+
+                          <ion-icon class="iconos" name="time-outline"></ion-icon> 
+                
+                          Horarios:</label>
+
+                          <h6>Jornada 30 Hrs rotativo</h6>
+                      </div>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-item>
+          
+
+
+ 
+
+
+</div>
+
+<span>
+  <ion-button routerLink="/trabajos" expand="block" fill="outline"  color="light"> Ver todos</ion-button>
+  </span>
+
+</div>
+
+
+  
+
+                  <!--ORIENTACION-HOME-->
+
+<div class="fo centrado">
+  <h3>Encuentra el trabajo ideal, con la ayuda de nuestro equipo prodesional</h3>
+<h1>AQUÍ TE ORIENTAMOS</h1>
+
+<ion-button routerLink="/agendarcita" type="file" class="ion-text-center" color="primary">
+  Solicita una entrevista
+</ion-button>
+</div>
+
+            <!--FOOTER-HOME-->
+
+

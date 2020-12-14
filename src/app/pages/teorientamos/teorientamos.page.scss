@@ -1,0 +1,187 @@
+/*ESTILOS IMGAEN PRINCIPAL*/
+
+.titleTop {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.titleTop .subtitle {
+  
+  font-weight: 600;
+  color: #888;
+}
+
+.videowraper {
+  background: url(/assets/img/videobg.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  height: 50%;
+  
+}
+
+.section {
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.container1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.videowraper .subtitle, .videowraper h3 h5{
+  color: #fff;
+  font-weight: 600;
+ 
+}
+
+.videowraper p {
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.titleTop h3 span {
+  color: #263bd6;
+  font-weight: 600;
+}
+
+.ico {
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  color: #f8f8fa;
+
+}
+
+
+/*ESTILOS DE FODA*/
+
+.lp{
+    color: #2564eb;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:35px;
+    margin-bottom: 20px;
+}
+ion-button{
+    margin: 0;
+}
+.container {
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+.linea{
+    height: 3px;
+    width: 85px;
+    border-top: 3px solid #2564eb;
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-top: 0px;
+    align-items: center;
+}
+.h{
+    text-align: center;
+}
+.text2{
+    color: #7e8890;
+    	line-height: 30px;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+    font-family: "Work Sans",sans-serif;
+    margin-bottom: 35px;
+     }
+
+
+
+/*ESTILOS DE ORIENTACION CURRICULUM*/
+.fo{
+    background: url(/assets/img/search-bg.jpg) center no-repeat fixed;
+    background-size: cover;
+    padding: 100px 0;
+    height: 100%;
+  }
+  .centrado{
+    text-align: center;
+    color: #f8f8fa;
+    font: bold;
+  }
+.subt{
+  font-size: 18px;
+}
+.ico {
+    margin-top: 35px;
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    color: #f8f8fa;
+  
+  }
+.sepracion{
+    margin-top: 35px;
+}
+
+
+
+  
+
+
+ /*ESTILOS DE MATERIAL COMPLEMENTARIO*/
+
+.divk{
+  background: linear-gradient(90deg, rgba(43,90,148,1) 0%, rgba(45,112,229,1) 35%, rgba(45,112,229,1) 100%);
+}
+ .container1 {
+
+    padding: 6px 20px;
+    color: #FFFFFF;
+
+    ion-item {
+      --background: rgba(255,255,255,.1);
+      padding: 0;
+      margin: 14px 0;
+      --border-radius: 14px;
+      color: #FFFFFF;
+      font-weight: 600;
+
+      ion-label {
+        padding: 6px 0;
+
+        h4 {
+          font-weight: 600;
+          font-size: 16px;
+        }
+        h6 {
+          color: rgba(255,255,255,.66);
+        }
+      }
+
+    }
+
+    h2 {
+    text-align:center;
+      padding-bottom: 8px;
+    }
+
+  }
+
+
+
+ 
