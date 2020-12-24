@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrarPage implements OnInit {
 
+  
+ 
+
   constructor() { }
 
   ngOnInit() {
   }
+ 
 
 }

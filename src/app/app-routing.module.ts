@@ -55,6 +55,10 @@ const routes: Routes = [
     path: 'foda',
     loadChildren: () => import('./pages/foda/foda.module').then( m => m.FodaPageModule)
   },
+  {
+    path: 'talleres',
+    loadChildren: () => import('./pages/talleres/talleres.module').then( m => m.TalleresPageModule)
+  },
   
 ];
 

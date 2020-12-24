@@ -57,7 +57,7 @@
           
 
       
-      <!--COMUNA - FORMULARIO-->
+                                 <!--COMUNA - FORMULARIO-->
       <ion-item>
          <ion-label><ion-icon name="location-outline"></ion-icon> Comuna</ion-label>
         <ion-select required="true">
@@ -67,6 +67,24 @@
           <ion-select-option value="Nogales">Nogales</ion-select-option>
           <ion-select-option value="La Cruz">La Cruz</ion-select-option>
         </ion-select>
+</ion-item>
+
+<ion-item>
+  <ion-label><ion-icon name="calendar-outline"></ion-icon>Fecha</ion-label> 
+  <ion-datetime displayFormat=" DD MMM, YYYY"
+      cancelText="Cancelar"
+      doneText="Aceptar"
+      monthShortNames="Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic"
+  ></ion-datetime>
+</ion-item>
+
+<ion-item>
+  <ion-label><ion-icon name="time-outline"></ion-icon>Hora</ion-label> 
+  <ion-datetime displayFormat=" HH:mm"
+      cancelText="Cancelar"
+      doneText="Aceptar"
+     
+  ></ion-datetime>
 </ion-item>
 
 
@@ -96,7 +114,7 @@
   <div align="center">
 
     <ion-button style="display: flex; margin-bottom: 60px;max-width: 250px;"
-     shap="round" color="primary" type="submit">Enviar</ion-button>
+     shap="round" color="primary" type="submit">Solicitar entrevista</ion-button>
 
   </div>
   

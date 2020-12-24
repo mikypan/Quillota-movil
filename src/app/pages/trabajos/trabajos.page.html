@@ -45,54 +45,56 @@
 
 <!-- CONTENIDO -  TRABAJOS - TARJETAS-->
 
-<ion-content >
+<ion-content class="divk">
+
+  <div class="divk">
   
-  <ion-grid fixed> <!-- GRID-->
+  <ion-grid  fixed> <!-- GRID-->
 
     <ion-row>
 
       <ion-col   size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"
                 *ngFor="let post of posts">
-        <ion-card>
+        <ion-card class="divk">
           <ion-card-header>
-            <ion-card-title class="title-card" color="primary">Operativo de Servicios Post Venta</ion-card-title>
+            <ion-card-title class="title-card" color="light">Operativo de Servicios Post Venta</ion-card-title>
             
           </ion-card-header>
 
           <ion-card-content>
-              <label class="post-requi">
+              <label class="post-requi1">
                 
                   <ion-icon class="iconos" name="logo-buffer"></ion-icon>
                 
               Descripcion:</label>
 
-            <p class="post-text-content just">{{post.description}}</p>
+            <p class="post-text-content1 just">{{post.description}}</p>
 
 
-             <label class="post-requi">
+             <label class="post-requi1">
 
               <ion-icon class="iconos" name="checkbox-outline"></ion-icon>
 
                Requisitos:</label>
 
-            <p class="post-text-content just">{{post.description}}</p>
+            <p class="post-text-content1 just">{{post.description}}</p>
 
-            <label class="post-requi">
+            <label class="post-requi1">
 
               <ion-icon name="location-outline"></ion-icon>
 
             Ubicación:</label>
 
-           <p class="post-text-content">Viña del Mar</p>
+           <p class="post-text-content1">Viña del Mar</p>
 
-          <label class="post-requi">
+          <label class="post-requi1">
 
           <ion-icon class="iconos" name="time-outline"></ion-icon> 
 
           Horarios:</label>
 
             
-             <p class="post-text-content">Jornada 30 Hrs rotativo</p>
+             <p class="post-text-content1">Jornada 30 Hrs rotativo</p>
             <ion-row>
               <ion-col>
 
@@ -119,6 +121,8 @@
     </ion-row>
 
   </ion-grid>
+
+  </div>
 
 </ion-content>
 

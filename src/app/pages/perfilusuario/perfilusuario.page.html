@@ -9,7 +9,7 @@
 
 </ion-header>
 
-<ion-content class="bg-color">
+<ion-content>
 
     <ion-card class="ion-no-margin">
 
@@ -51,6 +51,14 @@
             </ion-input>
         </ion-item>
         <ion-item>
+          <ion-label><ion-icon name="calendar-outline"></ion-icon>Fecha de nacimiento</ion-label> 
+          <ion-datetime displayFormat=" DD MMM, YYYY"
+              cancelText="Cancelar"
+              doneText="Aceptar"
+              monthShortNames="Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic"
+          ></ion-datetime>
+        </ion-item>
+        <ion-item>
           <ion-input name="password" type="password" placeholder="Nueva Contraseña">
             <ion-icon name="lock-closed-outline"></ion-icon>
           </ion-input>
@@ -61,27 +69,7 @@
         </ion-input>
     </ion-item>
 
-      <!--GENERO - FORMULARIO-->
-      <ion-radio-group value="hombre">
-        <ion-list-header>
-          <ion-label>Sexo</ion-label>
-        </ion-list-header>
-    
-        <ion-item>
-          <ion-label>Hombre</ion-label>
-          <ion-radio slot="start" value="hombre"></ion-radio>
-        </ion-item>
-    
-        <ion-item>
-          <ion-label>Mujer</ion-label>
-          <ion-radio slot="start" value="mujer"></ion-radio>
-        </ion-item>
-  
-         <ion-item>
-          <ion-label>Otro</ion-label>
-          <ion-radio slot="start" value="otro"></ion-radio>
-        </ion-item>
-      </ion-radio-group>
+      
       <!--COMUNA - FORMULARIO-->
       <ion-item>
          <ion-label><ion-icon name="location-outline"></ion-icon> Comuna</ion-label>
@@ -93,6 +81,12 @@
           <ion-select-option value="La Cruz">La Cruz</ion-select-option>
         </ion-select>
 </ion-item>
+
+           <ion-item>
+          <ion-input name="direccion" type="text" placeholder="Dirección">
+            <ion-icon name="location-outline"></ion-icon>
+          </ion-input>
+      </ion-item>
 
 
            <div class="sign-btn-wrap pad">
